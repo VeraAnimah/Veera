@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Authentication</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.4.0/web3.min.js"></script>
+ 
+    <h1 align="center">User/Device Blockchain Authentication</h1>
+    <div class="card">
+        <form id="registerForm">
+            <label for="userAddress">User Address:</label><br>
+            <input type="text" id="userAddress" name="userAddress"><br>
+            <label for="device">Device:</label><br>
+            <input type="text" id="device" name="device"><br>
+            <label for="ip">IP Address:</label><br>
+            <input type="text" id="ip" name="ip"><br>
+            <button type="button" id="registerButton">Register</button>
+        </form>
+    </div>
+   
+    <div class="card">
+        <form id="loginForm">
+            <label for="userAddress">User Address:</label><br>
+            <input type="text" id="userAddress" name="userAddress"><br>
+            <label for="ip">IP Address:</label><br>
+            <input type="text" id="ip" name="ip"><br>
+            <button type="button" id="loginButton">Login</button>
+        </form>
+
+    </div>
+    <form id="logoutForm">
+        <label for="userAddress">User Address:</label><br>
+        <input type="text" id="userAddress" name="userAddress"><br>
+        <button type="button" id="logoutButton">Logout</button>
+    </form>
+    <form id="logsForm">
+        <label for="userAddress">User Address:</label><br>
+        <input type="text" id="userAddress" name="userAddress"><br>
+        <button type="button" id="displayLogsButton">Display Logs</button>
+    </form>
+    <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"  type="application/javascript" ></script>
+    <script src="main.js"></script>
+
+<script>
+// Further code will go here
+</script>
+</body>
+</html>
+
